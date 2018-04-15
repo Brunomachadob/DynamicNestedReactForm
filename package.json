@@ -1,0 +1,21 @@
+{
+  "name": "dynamicnestedreactform",
+  "version": "1.0.0",
+  "description":
+    "Formulário feito em react com mecanismo de edição de um json complexo",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-scripts": "1.1.0",
+    "immutability-helper": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
