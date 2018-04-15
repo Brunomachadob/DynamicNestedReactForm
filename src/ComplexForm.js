@@ -13,8 +13,8 @@ export default class ComplexForm extends Component {
     }
   };
 
-  updateState = newState => {
-    this.setState(update(this.state, newState), () => {
+  updateState = updateInfo => {
+    this.setState(update(this.state, updateInfo), () => {
       console.log(this.state);
     });
   };
